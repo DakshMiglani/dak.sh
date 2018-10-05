@@ -1,0 +1,46 @@
+baseurl = "https://dak.sh/"
+# remember trailing / at end of baseurl
+languageCode = "en-us"
+title = "ln(daksh)"
+desc = "natural log of my thoughts."
+# Enable comments by entering your Disqus shortname
+disqusShortname = "dak-sh"
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics = ""
+paginate = 50
+theme = "sublime-hugo-theme"
+
+[permalinks]
+	post = "/:year/:month/:day/:slug"
+
+[params]
+	name = "Daksh Miglani"
+	description = "natural log of my thoughts."
+	copyright = ""
+
+	# Custom assets can be linked with their paths relative to static/
+	custom_css = []
+	custom_js  = []
+
+	# Links to newer/older blog posts
+	newer = "Newer"
+	older = "Older"
+
+	pageNotFoundTitle = "Page not found"
+	pageNotFoundSubtitle = "The requested page was not <br> found on the server."
+
+[params.offcanvas]
+	# Menu items
+	title = "Daksh Miglani"
+	bio = "ln is the natural log of my thoughts."
+	bio2 = "I live in Delhi, India."
+	subscribe = "Subscribe"
+	followme = "Contact"
+
+	# Enable Google search
+	search_enabled = true
+	search = "Search"
+
+	[[params.offcanvas.socialnetworks]]
+		name = "hello [AT] dak.sh"
+		url = "mailto:hello@dak.sh"
