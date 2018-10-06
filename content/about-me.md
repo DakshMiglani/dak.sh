@@ -44,13 +44,19 @@ I primarily program in javascript (node, typescript) and golang, but I'm moving 
 
 - What does your terminal look like?
 
-I use terminator as my default terminal emulator, I use the Fish shell with budspencer theme.
+I use terminator as my default terminal emulator, I use the [Fish shell](https://fishshell.com/) with [budspencer theme](https://github.com/oh-my-fish/theme-budspencer).
 
 ![my_terminal](https://i.imgur.com/KSL3W1o.png)
 
 - What font do you prefer?
 
-The font of my preference is Input Mono.
+The font of my preference is [Input Mono](http://input.fontbureau.com/).
+
+![input_mono](https://i.imgur.com/3dRiEZm.png)
+
+- Gitlab or Github?
+
+Gitlab.
 
 - Podcast Recommendations?
 
