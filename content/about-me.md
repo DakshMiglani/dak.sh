@@ -73,4 +73,12 @@ I recommend listening to the following podcasts:
 
 If you're looking for music to focus while working, or chilling. Check out these Playlists:
 
+<div id="music" style="text-align: center;">
 <iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/2wtoJxrMRJltzZdiIzCfBl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/1wA90PNnphJOewVi0uwYbF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWXLeA8Omikj7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<iframe src="https://open.spotify.com/embed/user/jkkq819njkd5cvl1c8nxtj432/playlist/3ROIJv0zno8GrqPJLFLZXz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
