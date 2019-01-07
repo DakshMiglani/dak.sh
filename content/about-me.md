@@ -13,7 +13,7 @@ type = "post"
 
 Hello, My name is Daksh Miglani. I'm an Indian _maker of software_, living in Delhi with a passion for technology and business.
 
-I am building [Kratos](https://kratos.ai), An _A.I. based platform for business tools_.
+I am building [Adler](https://adler.ai), An _A.I. based platform for business tools_.
 
 ### My life
 
