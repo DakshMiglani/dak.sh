@@ -692,7 +692,7 @@ header {
     z-index: 999;
 }
 
-.h-wrap h1.title {    
+.h-wrap h1.title {
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2em;
     display: inline-block;
@@ -801,7 +801,7 @@ header {
 .close .lines {
     -webkit-transition: background .3s 0s ease;
     transition: background .3s 0s ease;
-    background: 0 0;    
+    background: 0 0;
 }
 
 .close .lines::before,
@@ -826,7 +826,7 @@ header {
 }
 
 .off-canvas {
-    font-family: 'Source Code Pro', monospace;    
+    font-family: 'Source Code Pro', monospace;
     position: fixed;
     top: 0;
     right: -25em;
@@ -937,7 +937,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: content-box;
-    background-position: 
+    background-position:
     text-indent: 20px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -947,18 +947,18 @@ header {
 .search-input:focus, .search-input[type="text"]:valid {
     outline: none;
     background-position: -30px center;
-    text-indent: 0;   
-    width: 18em; 
+    text-indent: 0;
+    width: 18em;
 }
 
-.search-submit {    
+.search-submit {
     height: 1.8em;
     position: absolute;
     margin-left: .3em;
     font-size: 0.9em;
     width: 5em;
     color: #000;
-    background: #b0b0b0;    
+    background: #b0b0b0;
     border: 1px solid #b0b0b0;
     border-radius: 0;
     font-family: 'Source Code Pro', monospace;
@@ -1033,12 +1033,12 @@ footer small {
     word-wrap: break-word;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
-    hyphens: auto; 
+    hyphens: auto;
 }
 
 @media screen and (max-width: 414px) {
     .posts li .p-wrap {
-        padding: .2em 3em .8em 1.5em;        
+        padding: .2em 3em .8em 1.5em;
         font-size: 0.9em;
         line-height: 1em;
     }
@@ -1049,7 +1049,7 @@ footer small {
     opacity: 0.5;
 }
 
-@media screen and (min-width: 414px) {    
+@media screen and (min-width: 414px) {
     .posts li .p-wrap:hover {
         padding-left: 3.2em;
         font-family: 'Source Code Pro', monospace;
@@ -1078,6 +1078,7 @@ footer small {
     font-family: 'Source Code Pro', monospace;
     color: #fff;
     text-decoration: none;
+    font-size: 32px;
 }
 
 .posts li time {
@@ -1086,7 +1087,7 @@ footer small {
     font-size: 0.8em;
 }
 
-.posts li a .p-wrap p .title-attr {    
+.posts li a .p-wrap p .title-attr {
     color: #F92672 !important;
 }
 
@@ -1124,7 +1125,7 @@ footer small {
     font-feature-settings: 'liga', 'clig';
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
-    hyphens: auto; 
+    hyphens: auto;
 }
 
 .single-wrap .single-content {
@@ -1282,7 +1283,7 @@ footer small {
     /*border: 1px solid #3b3b3b;*/
     padding: 10px;
     line-height: 1;
-    border-radius: 25px;    
+    border-radius: 25px;
     bottom: 30px;
     color: #333;
 }
