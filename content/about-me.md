@@ -31,11 +31,11 @@ I've learnt almost everything by _hitting the roadblocks and removing them_ (tri
 
 - What Operating System do you use?
 
-I am a \*nix user, I'm currently using Arch Linux with 4.18.16 Kernel.
+I am a \*nix user, I'm currently using Arch Linux with 4.19.46 LTS Kernel.
 
 - What editors do you use?
 
-I primarly use NeoVim and visual-studio code.
+I primarly use Neovim and sublime-text 3 (that too with vim bindings, ie: vintage mode).
 
 - What programming languages do you prefer?
 
@@ -43,19 +43,17 @@ I primarily program in javascript (node, typescript) and golang, but I'm moving 
 
 - What does your terminal look like?
 
-I use Konsole as my default terminal emulator, I use the [Zsh Shell with Prezto](https://github.com/sorin-ionescu/prezto) with the Steef Prompt.
+I use Kitty as my default terminal emulator, I use the Fish Shell with the bob-the-fish prompt and gruvbox colorscheme.
 
-![my_terminal](https://i.imgur.com/IU5Ji2w.png)
+![my_terminal](https://i.imgur.com/COfvo1g.png)
 
 - What Desktop Environment / Window Manager do you use?
 
-I switch a lot, but I mostly use Kde Plasma 5 and i3WM (i3 may seem a bit counter intuitive, but it's awesome!)
+I use i3-gaps, you can checkout my config on [/r/unixporn](https://www.reddit.com/r/unixporn/comments/bv3etq/i3gaps_im_losing_my_mind_trying_to_get_the/)
 
 - What font do you prefer?
 
-The font of my preference is [Input Mono](http://input.fontbureau.com/).
-
-![input_mono](https://i.imgur.com/3dRiEZm.png)
+The font of my preference is [Hack Nerd Font](https://nerdfonts.com/).
 
 - Do you have dotfiles?
 
@@ -81,15 +79,15 @@ I recommend listening to the following podcasts:
 If you're looking for music to focus while working, or chilling. Check out these Playlists:
 
 <div id="music" style="text-align: center;">
-<iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/39kd4wsjEPssEe2ngFWjKA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/39kd4wsjEPssEe2ngFWjKA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZEVXcDXukcxh1oHO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZEVXcDXukcxh1oHO" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/2wtoJxrMRJltzZdiIzCfBl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/2wtoJxrMRJltzZdiIzCfBl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/1wA90PNnphJOewVi0uwYbF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/73mg4wt4gdfzm0j70ev81jb2l/playlist/1wA90PNnphJOewVi0uwYbF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWXLeA8Omikj7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWXLeA8Omikj7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<iframe src="https://open.spotify.com/embed/user/jkkq819njkd5cvl1c8nxtj432/playlist/3ROIJv0zno8GrqPJLFLZXz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/jkkq819njkd5cvl1c8nxtj432/playlist/3ROIJv0zno8GrqPJLFLZXz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
