@@ -59,7 +59,7 @@ My Current Interests are:
 
 - What programming languages do you prefer?
 
-I primarily program in javascript (node, typescript) and golang, but I'm moving on from javascript.
+> I primarily program in javascript (node, typescript) and golang, but I'm moving on from javascript.
 
 - What does your terminal look like?
 
