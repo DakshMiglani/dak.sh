@@ -1,7 +1,11 @@
 {{ partial "header/styles-highlight.html" . }}
 
 {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
-
+<style>
+.site__title a {
+  font-size: 2.5rem;
+}
+</style>
 {{ $style := resources.Get "scss/hyde-hyde.scss" | toCSS $options | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
