@@ -1,46 +1,47 @@
 baseurl = "https://dak.sh/"
 # remember trailing / at end of baseurl
-languageCode = "en-us"
-title = "ln(daksh)"
+languageCode = "en"
+title = "ln(Daksh)"
 desc = "natural log of my thoughts."
 # Enable comments by entering your Disqus shortname
 disqusShortname = "dak-sh"
-# Enable Google Analytics by entering your tracking code
-# googleAnalytics = ""
-paginate = 50
-theme = "sublime-hugo-theme"
+paginate = 3
 
-[permalinks]
-	post = "/:year/:month/:day/:slug"
+# theme
+theme = "hyde-hyde"
+relatedPosts = true
 
 [params]
-	name = "Daksh Miglani"
-	description = "natural log of my thoughts."
-	copyright = ""
+  author = 'Daksh Miglani'
+  title = 'ln(Daksh)'
+  description = 'natural log of my thoughts!'
+  dateformat = "Jan 2, 2006"
 
-	# Custom assets can be linked with their paths relative to static/
-	custom_css = []
-	custom_js  = []
+  # sidebar, copyright & license
+  copyright = "DakshMiglani"
+  license = "CC BY-SA 4.0"
+  licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+  showBuiltWith = false
 
-	# Links to newer/older blog posts
-	newer = "Newer"
-	older = "Older"
+  # https://highlightjs.org
+  highlightjs = true
+  highlightjsstyle = "github"
 
-	pageNotFoundTitle = "Page not found"
-	pageNotFoundSubtitle = "The requested page was not <br> found on the server."
+[params.social]
+twitter = 'Dak_ssh'
+github = 'DakshMiglani'
+email = 'hello@dak.sh'
+telegram = 'DakshMiglani'
+linkedin = 'dakshmiglani'
+stackoverflow = '6792646'
 
-[params.offcanvas]
-	# Menu items
-	title = "Daksh Miglani"
-	bio = "ln is the natural log of my thoughts."
-	bio2 = "I live in Delhi, India."
-	subscribe = "Subscribe"
-	followme = "Contact"
-
-	# Enable Google search
-	search_enabled = true
-	search = "Search"
-
-	[[params.offcanvas.socialnetworks]]
-		name = "hello [AT] dak.sh"
-		url = "mailto:hello@dak.sh"
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about-me"
+    weight = 300
+    url = "/posts/about-me"
