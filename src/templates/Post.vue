@@ -13,8 +13,6 @@
             |
             | {{ new Date($page.post.updated_at).toLocaleDateString("en-US", this.dateOptions) }}
           g-image(v-if="$page.post.featuredImage" :src="$page.post.featuredImage" alt="$page.post.title's featured image")
-          twitter-button(:shareUrl="$page.meta.siteUrl + $page.post.path", btnText="Share on Twitter")
-          telegram-button(:shareUrl="$page.meta.siteUrl + $page.post.path", btnText="Or on Telegram")
         div.markdown-body(v-html="$page.post.content")
         vue-disqus(shortname="dak-sh" :identifier="$page.post.title")
 </template>
@@ -36,18 +34,11 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-import TwitterButton from "vue-share-buttons/src/components/TwitterButton";
-import TelegramButton from "vue-share-buttons/src/components/TelegramButton";
-
 export default {
   metaInfo() {
     return {
       title: this.$page.post.title
     };
-  },
-  components: {
-    TwitterButton,
-    TelegramButton
   },
   data() {
     return {
