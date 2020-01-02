@@ -4,8 +4,8 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
-import "@mdi/font/css/materialdesignicons.css";
 import VueDisqus from "vue-disqus";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 export default function(Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
@@ -15,7 +15,7 @@ export default function(Vue, { router, head, isClient, appOptions }) {
 
   appOptions.vuetify = new Vuetify({
     icons: {
-      iconfont: "mdi"
+      iconfont: "fa"
     }
   });
 

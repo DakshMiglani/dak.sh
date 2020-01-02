@@ -15,7 +15,7 @@
               a(href="https://adler.ai" target="_blank") Adler
               |, an AI APIs platform for modern Businesses.
             v-btn(to="/posts/about-me", outlined, color="orange darken-2")
-              v-icon(left) mdi-chevron-right
+              v-icon(left, size="15") fas fa-chevron-right
               |
               |About Me
 </template>
