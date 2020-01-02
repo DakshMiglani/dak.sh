@@ -4,7 +4,11 @@ Layout
       v-row(no-gutters align="center" justify="center")
         v-col(md="6" sm="12" xs="12")
           div
-            h2.text-center.display-3.mt-4.mb-2.font-weight-medium ln(Daksh)
+            h2.text-center.display-3.mt-4.mb-2.font-weight-thin
+              span.font-italic ln
+              | (
+              span.font-weight-medium.font-regular Daksh
+              | )
             p.text-center.title.mb-4 natural log of my thoughts
             div#posts
                 article.mt-4(v-for="edge in $page.allPost.edges" :key="edge.node.id")
@@ -72,5 +76,9 @@ query ($page: Int) {
 
 #posts .g-link:hover {
   color: rgba(255, 150, 18, 1) !important;
+}
+
+.font-regular {
+  font-style: normal;
 }
 </style>

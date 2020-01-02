@@ -56,8 +56,8 @@ export default {
       links: [
         { name: "Home", to: "/", icon: "fas fa-home" },
         { name: "Posts", to: "/posts", icon: "fas fa-scroll" },
-        { name: "Projects", to: "/projects", icon: "fas fa-project-diagram" },
-        { name: "Contact", to: "/contact", icon: "fas fa-address-book" }
+        // { name: "Projects", to: "/projects", icon: "fas fa-project-diagram" }
+        { name: "Books", to: "/books", icon: "fas fa-book-reader" }
       ]
     };
   }
