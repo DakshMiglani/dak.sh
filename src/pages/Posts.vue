@@ -31,6 +31,9 @@ Layout
 import Pagination from "../components/pagination";
 
 export default {
+  metaInfo: {
+    title: "ln(Daksh) - natural log of my thoughts"
+  },
   components: {
     Pagination
   },

@@ -61,29 +61,21 @@ My Current Interests are:
 
 #### What Operating System do you use?
 
-> When I'm on a PC, I tend to use ArchLinux with the latest kernel, but When I am on a laptop I prefer the rather stable OpenSuse.
+> I tend to use ArchLinux with the latest kernel time to time, but I'm currently trying Pop_OS!
 
 #### What editors do you use?
 
-> I primarly use Neovim and sublime-text 3 (that too with vim bindings, ie: vintage mode).
-
-#### What programming languages do you prefer?
-
-> I primarily program in javascript (node, typescript) and golang, but I'm moving on from javascript.
-
-#### What does your terminal look like?
-
-> I use multiple terminals such as deepin-terminal, kitty and urxvt, I use the ZSH Shell with the zeta prompt and gruvbox colorscheme.
-
-![my_terminal](https://i.imgur.com/COfvo1g.png)
+> I primarly use NeoVim and VSCode (that too with vim bindings).
 
 #### What Desktop Environment / Window Manager do you use?
 
-> I use i3-gaps, you can checkout my config on [/r/unixporn](https://www.reddit.com/r/unixporn/comments/bv3etq/i3gaps_im_losing_my_mind_trying_to_get_the/)
+> I use i3-gaps, my desktop looks something like:
+
+![de](./images/de.png)
 
 #### What font do you prefer?
 
-> The font of my preference is [Hack Nerd Font](https://nerdfonts.com/) and [Iosevka Nerd Font](https://nerdfonts.com/).
+> The font of my preference is Fira Code.
 
 #### Do you have dotfiles?
 

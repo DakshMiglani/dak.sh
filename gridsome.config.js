@@ -22,8 +22,21 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Post",
-        path: "blog/**/*.md"
+        path: "content/blog/**/*.md"
       }
+    },
+    api => {
+      api.loadSource(async actions => {
+        const collection = actions.addCollection({
+          typeName: "Books"
+        });
+
+        const books = require("./content/books.json");
+
+        for (const book of books) {
+          collection.addNode(book);
+        }
+      });
     }
   ],
   templates: {
