@@ -9,7 +9,7 @@
             |
             |{{ new Date($page.post.created_at).toLocaleDateString("en-US", this.dateOptions)  }}
             br
-            span.font-weight-bold(style="color: #A36FE6;") Updated on
+            span.font-weight-bold(style="color: #A36FE6;" v-if="$page.post.updated_at") Updated on
             |
             | {{ new Date($page.post.updated_at).toLocaleDateString("en-US", this.dateOptions) }}
           g-image(v-if="$page.post.featuredImage" :src="$page.post.featuredImage" alt="$page.post.title's featured image")
