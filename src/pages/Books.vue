@@ -4,14 +4,18 @@ Layout
       v-row(no-gutters align="center" justify="center")
         v-col(md="6" sm="12" xs="12")
           div
-            h2.text-center.display-2.mt-4.mb-10.font-weight-regular
-              | Book Recommendations
+            h2.text-center.display-1.mt-4.mb-10.font-weight-regular
+              | Books I Read
             div#posts
                 article.mt-4(v-for="edge in $page.allBooks.edges" :key="edge.node.id")
-                  p.subtitle.mb-0
-                    | {{ edge.node.year }}
-                  g-link.g-link(:to="edge.node.link")
-                    h2.headline.font-weight-medium {{ edge.node.title  }}
+                  a.g-link(:href="edge.node.link", target="_blank")
+                    h2.headline.font-weight-medium {{ edge.node.title }}
+                    p.subtitle
+                      | by {{ edge.node.author }}
+                      |
+                      | &middot;
+                      |
+                      | Read in {{ edge.node.year }}
                   v-row(justify="center")
                     v-rating(:value="edge.node.rating", size="25", dark, dense, readonly, background-color="#fd9217", color="#fd9217")
                   div.mb-5
@@ -34,6 +38,7 @@ query {
         rating
         year
         link
+        author
       }
     }
   }
@@ -47,7 +52,7 @@ query {
 
 #posts .g-link {
   color: #272727;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #posts .g-link:hover {

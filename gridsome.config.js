@@ -19,6 +19,14 @@ module.exports = {
   },
   plugins: [
     {
+      use: "gridsome-plugin-gtm",
+      options: {
+        id: "GTM-K2T74XN",
+        enabled: true,
+        debug: false
+      }
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Post",

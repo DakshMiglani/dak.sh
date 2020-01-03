@@ -1,76 +1,86 @@
 [
   {
-    "title": "Outliers: The Story of Success - Malcolm Gladwell",
+    "title": "Outliers: The Story of Success",
     "rating": 4,
     "year": "2016",
-    "link": "https://www.goodreads.com/book/show/3228917-outliers?ac=1&from_search=true&qid=OaL2ZqWZxX&rank=1"
+    "link": "https://www.goodreads.com/book/show/3228917-outliers?ac=1&from_search=true&qid=OaL2ZqWZxX&rank=1",
+    "author": "Malcolm Gladwell"
   },
   {
-    "title": "Digital Fortress - Dan Brown",
+    "title": "Digital Fortress",
     "rating": 4,
     "year": "2019",
-    "link": "https://www.goodreads.com/book/show/11125.Digital_Fortress"
+    "link": "https://www.goodreads.com/book/show/11125.Digital_Fortress",
+    "author": "Dan Brown"
   },
-
   {
-    "title": "Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future - Ashlee Vance",
+    "title": "Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future",
     "rating": 5,
     "year": "2018",
-    "link": "https://www.goodreads.com/book/show/25541028-elon-musk"
+    "link": "https://www.goodreads.com/book/show/25541028-elon-musk",
+    "author": "Ashlee Vance"
   },
-
   {
-    "title": "Rich Dad Poor Dad - Robert Kiyosaki",
+    "title": "Rich Dad Poor Dad",
     "rating": 3.5,
     "year": "2017",
-    "link": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad"
+    "link": "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
+    "author": "Robert Kiyosaki"
   },
   {
-    "title": "The Monk Who Sold His Ferrari: A Fable About Fulfilling Your Dreams and Reaching Your Destiny - Robin Sharma",
+    "title": "The Monk Who Sold His Ferrari: A Fable About Fulfilling Your Dreams and Reaching Your Destiny",
     "rating": 2.7,
     "year": "2019",
-    "link": "https://www.goodreads.com/book/show/43877.The_Monk_Who_Sold_His_Ferrari"
+    "link": "https://www.goodreads.com/book/show/43877.The_Monk_Who_Sold_His_Ferrari",
+    "author": "Robin Sharma"
   },
   {
-    "title": "A Brief History of Time - Stephen Hawking",
+    "title": "A Brief History of Time",
     "rating": 5,
     "year": "2016",
-    "link": "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time"
+    "link": "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time",
+    "author": "Stephen Hawking"
   },
   {
-    "title": "The Alchemist - Paulo Coelho",
+    "title": "The Alchemist",
     "rating": 5,
     "year": "2019",
-    "link": "https://www.goodreads.com/book/show/18144590-the-alchemist"
+    "link": "https://www.goodreads.com/book/show/18144590-the-alchemist",
+    "author": "Paulo Coelho"
   },
   {
-    "title": "Cold Fusion Presents: New Thinking: From Einstein to Artificial Intelligence, the Science and Technology that Transformed Our World - Dagogo Altraide",
+    "title": "Cold Fusion Presents: New Thinking: From Einstein to Artificial Intelligence, the Science and Technology that Transformed Our World",
     "rating": 4,
     "year": "2019",
-    "link": "https://www.goodreads.com/book/show/39283582-cold-fusion-presents"
+    "link": "https://www.goodreads.com/book/show/39283582-cold-fusion-presents",
+    "author": "Dagogo Altraide"
   },
   {
-    "title": "Angels and Demons - Dan Brown",
+    "title": "Angels and Demons",
     "rating": 4.5,
     "year": "2019",
-    "link": "https://www.goodreads.com/book/show/960.Angels_Demons"
+    "link": "https://www.goodreads.com/book/show/960.Angels_Demons",
+    "author": "Dan Brown"
   },
   {
-    "title": "The Da Vinci Code - Dan Brown",
+    "title": "The Da Vinci Code",
     "rating": 4.5,
     "year": "2019",
-    "link": "https://www.goodreads.com/book/show/968.The_Da_Vinci_Code"
+    "link": "https://www.goodreads.com/book/show/968.The_Da_Vinci_Code",
+    "author": "Dan Brown"
   },
   {
-    "title": "The Martian - Andy Weir",
+    "title": "The Martian",
     "rating": 5,
     "year": "2018",
-    "link": "https://www.goodreads.com/book/show/18007564-the-martian"
+    "link": "https://www.goodreads.com/book/show/18007564-the-martian",
+    "author": "Andy Weir"
   },
   {
-    "title": "Zero to One - Peter Thiel & Blake Masters",
+    "title": "Zero to One",
     "rating": 5,
     "year": "2018",
-    "link": "https://www.goodreads.com/book/show/18050143-zero-to-one"
+    "link": "https://www.goodreads.com/book/show/18050143-zero-to-one",
+    "author": "Peter Thiel & Blake Masters"
   }
 ]
