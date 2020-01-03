@@ -19,11 +19,9 @@ module.exports = {
   },
   plugins: [
     {
-      use: "gridsome-plugin-gtm",
+      use: "@gridsome/plugin-google-analytics",
       options: {
-        id: "GTM-K2T74XN",
-        enabled: true,
-        debug: false
+        id: "UA-155295041-1"
       }
     },
     {
