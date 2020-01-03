@@ -19,8 +19,8 @@ My go-to stratergy for learning almost anything and everything I know is the hit
 My life has always been very different than most of my peers, and most of my experiences are very crazy yet fascinating, some notable examples:
 
 1. Getting my first full time job as a Product Engineer at age of 16.
-2. Winning multiple college level hackathons.
-3. The average age group of my friend group is `28` (28.16 to be exact, crazy right?)
+2. Winning multiple college level hackathons while being in school.
+3. The average age of my friend group is `28` (28.16 to be exact, crazy right?)
 4. Running a startup with `> 100 clients`.
 5. ...I've a lot more of these facts, but there should be some secrecy, right eh?
 
