@@ -6,6 +6,7 @@ import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import VueDisqus from "vue-disqus";
 import "@fortawesome/fontawesome-free/css/all.css";
+import "./css/all.css"
 
 export default function(Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
