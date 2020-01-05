@@ -6,12 +6,12 @@
           h1.display-2.font-weight-medium {{ $page.post.title }}
           p.title.font-weight-regular
             span.font-weight-bold(style="color: #F46B3F;") Posted on
-            |
-            |{{ new Date($page.post.created_at).toLocaleDateString("en-US", this.dateOptions)  }}
+              |
+              |{{ new Date($page.post.created_at).toLocaleDateString("en-US", this.dateOptions)  }}
             br
             span.font-weight-bold(style="color: #A36FE6;" v-if="$page.post.updated_at") Updated on
-            |
-            | {{ new Date($page.post.updated_at).toLocaleDateString("en-US", this.dateOptions) }}
+              |
+              | {{ new Date($page.post.updated_at).toLocaleDateString("en-US", this.dateOptions) }}
           g-image(v-if="$page.post.featuredImage" :src="$page.post.featuredImage" alt="$page.post.title's featured image")
         div.markdown-body(v-html="$page.post.content")
         vue-disqus(shortname="dak-sh" :identifier="$page.post.title")
