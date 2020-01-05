@@ -5,11 +5,13 @@
         div
           h1.display-2.font-weight-medium {{ $page.post.title }}
           p.title.font-weight-regular
-            span.font-weight-bold(style="color: #F46B3F;") Posted on
+            span(v-if="$page.post.created_at")
+              span.font-weight-bold(style="color: #F46B3F;") Posted on
               |
               |{{ new Date($page.post.created_at).toLocaleDateString("en-US", this.dateOptions)  }}
             br
-            span.font-weight-bold(style="color: #A36FE6;" v-if="$page.post.updated_at") Updated on
+            span(v-if="$page.post.updated_at")
+              span.font-weight-bold(style="color: #A36FE6;") Updated on
               |
               | {{ new Date($page.post.updated_at).toLocaleDateString("en-US", this.dateOptions) }}
           g-image(v-if="$page.post.featuredImage" :src="$page.post.featuredImage" alt="$page.post.title's featured image")
