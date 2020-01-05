@@ -85,4 +85,8 @@ export default {
     rgba(237, 83, 74, 0.89)
   ) !important;
 }
+
+
+::-moz-selection { background: #ff9612; }
+::selection { background: #ff9612; }
 </style>
