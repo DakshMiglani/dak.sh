@@ -33,7 +33,7 @@ export default {
       socialIcons: [
         {
           icon: "fab fa-twitter",
-          link: "https://twitter.com/Dak_ssh",
+          link: "https://twitter.com/dakmig",
           color: "#1da1f2"
         },
         {
