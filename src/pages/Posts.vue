@@ -9,7 +9,7 @@ Layout
               | (
               span.font-weight-medium.font-regular Daksh
               | )
-            p.text-center.title.mb-4 natural log of my thoughts
+            p.text-center.headline.font-weight-medium.mt-4.mb-10 Natural log of my thoughts.
             div#posts
                 article.mt-4(v-for="edge in $page.allPost.edges" :key="edge.node.id")
                   g-link.g-link(:to="edge.node.path")
