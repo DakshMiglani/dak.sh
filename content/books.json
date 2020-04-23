@@ -82,5 +82,19 @@
     "year": "2018",
     "link": "https://www.goodreads.com/book/show/18050143-zero-to-one",
     "author": "Peter Thiel & Blake Masters"
+  },
+  {
+    "title": "Flash Boys",
+    "rating": 5,
+    "year": "2020",
+    "link": "https://www.goodreads.com/book/show/24724602-flash-boys",
+    "author": "Michael Lewis"
+  },
+  {
+    "title": " The Big Short: Inside the Doomsday Machine",
+    "rating": 5,
+    "year": "2020",
+    "link": "https://www.goodreads.com/book/show/26889576-the-big-short?ac=1&from_search=true&qid=Tv8Zs7UaQg&rank=1",
+    "author": "Michael Lewis"
   }
 ]
