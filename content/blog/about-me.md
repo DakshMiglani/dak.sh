@@ -3,12 +3,12 @@ title: "About Me"
 summary: "Hello There, My name is Daksh Miglani. I'm a programmer with a passion for math and business. I've been writing code since I was 9 years old and I've spent almost all my life sitting right infront of a computer, laptop or a Cell Phone. I'm from Generation-Z (currently 18 years old)."
 featuredImage: ""
 created_at: "2019-10-15"
-updated_at: "2019-12-30"
+updated_at: "2020-04-21"
 ---
 
-Hello There, My name is Daksh Miglani. I'm a programmer with a passion for math and business.
+Hello There, My name is Daksh Miglani. I'm a programmer with a passion for math, trading and business.
 
-I work at [Adler AI Inc](https://adler.ai), Where we provide _APIs for Deep Learning Models_. Our most notable clients include _KPMG, Duff & Phelps, Bank of Karnataka_.
+I'm the Founder & CTO of [Adler](https://adler.ai), where we help enterprises incorporate AI and automate their workflows to help them make smart decisions fast. Our most notable clientele include _KPMG, Duff & Phelps, etc_.
 
 ### My life
 
@@ -22,7 +22,7 @@ My life has always been very different than most of my peers, and most of my exp
 2. Winning multiple college level hackathons while being in school.
 3. The average age of my friend group is `28` (28.16 to be exact, crazy right?)
 4. Running a startup with `> 100 clients`.
-5. ...I've a lot more of these facts, but there should be some secrecy, right eh?
+5. ...I've a lot more of these facts. But there should be some secrecy right, eh?
 
 I am currently following a road not taken, a path despised, hated, not supported by many and this is why I'm so thankful to my dad, who has been so much supportive in this, who has helped me navigate a lot of challenges, allowed me to follow my passion and not force me to fit in a generalized box. I love you dad <3.
 
@@ -54,7 +54,6 @@ I have experience with many programming languages and have worked with a lot of 
 My Current Interests are:
 
 - Math
-- Quantum Computing
 - High Frequency &amp; Algo-Trading
 
 ### FAQs:
@@ -65,7 +64,7 @@ My Current Interests are:
 
 #### What editors do you use?
 
-> I primarly use NeoVim and VSCode (that too with vim bindings).
+> I switch around between vim and neovim.
 
 #### What Desktop Environment / Window Manager do you use?
 
@@ -73,14 +72,8 @@ My Current Interests are:
 
 ![de](./images/de.png)
 
+**Update**: I've stopped using i3-gaps, I now use bspwm which is much more minimal and extensible.
+
 #### What font do you prefer?
 
-> The font of my preference is Fira Code.
-
-#### Do you have dotfiles?
-
-> Of-course, I do! You can find them [here](https://github.com/DakshMiglani/dotfiles).
-
-#### Gitlab or Github?
-
-> Gitlab.
+> The font of my preference is JetBrainsMono.
