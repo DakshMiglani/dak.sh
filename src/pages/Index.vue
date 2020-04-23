@@ -8,12 +8,11 @@
             g-image.home-logo(alt="logo" src="~/logo-wo-bg.png" width="260" quality="100")
             h1.display-2.font-weight-bold Daksh Miglani
             p.headline.bio
-              | I'm an 18 year old maker and student based off of Delhi, India.
-              | I started writing code at the age of 9.
-              | I am Building
+              | Founder &amp; CTO at
               |
               a(href="https://adler.ai" target="_blank") Adler
-              |, an AI APIs platform for modern Businesses.
+              |, Helping enterprises become more efficient and productive.
+              | 18 y/o learner interested in Math &amp; Trading. 
             v-row.mb-5(justify="center")
               v-btn.ml-2.mr-2(icon, v-for="item in socialIcons" :key="item.icon", :color="item.color", :href="item.link", target="_blank")
                 v-icon(size="30") {{ item.icon }}
