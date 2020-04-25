@@ -57,7 +57,7 @@ export default {
         },
         {
           icon: "fas fa-at",
-          link: "mailto:hello@dak.sh",
+          link: "mailto:d@dak.sh",
           color: "#a83427"
         }
       ]
