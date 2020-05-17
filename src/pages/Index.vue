@@ -5,7 +5,8 @@
       v-row(no-gutters align="center" justify="center")
         v-col(md="5" sm="12" xs="12")
           div.text-center
-            g-image.home-logo(alt="logo" src="~/logo-wo-bg.png" width="260" quality="100")
+            div.flex-it
+              g-image#dp(alt="photo" src="~/dp.jpeg" height="260" width="260" style="border-radius: 50%;")
             h1.display-2.font-weight-bold Daksh Miglani
             p.headline.bio
               | Founder &amp; CTO at
